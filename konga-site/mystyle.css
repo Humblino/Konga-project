@@ -1,0 +1,140 @@
+body{
+    background-color: white;
+    
+}
+.navbar-logo-group{
+    display: flex;
+    background-color: white;
+    height: 45px;
+    align-items: center;
+    width: 16px;
+    gap: 30px;
+}
+
+.logo{
+    width: 120px;
+    height: 15px;
+    padding-left:25px;
+    gap: 40px;
+}
+.nav-ads{
+    width: 1200px;
+} 
+.navads{
+    width: 1600px;
+}
+.navbar-content{
+    display: flex;
+    width: 200px;
+}
+.navbar2{
+    display: flex;
+    background-color: rgba(255, 0, 174, 0.728);
+    height: 55px;
+    align-items: center;
+    width: 1610px;
+    gap: 35px;
+    padding-left: 25px;
+}
+.searchbar{
+    background-color: white;
+    width: 520px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+.search-button{
+    width: 50px;
+    height: 40px;
+    background-color: rgba(255, 196, 0, 0.342);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: 40px;
+    z-index: 1;
+}
+.cart-button{
+    background-color: green;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+}
+span{
+    color: white;
+    align-items: center;
+    
+}
+.cart-count{
+    color: white;
+    background-color: white;
+
+} 
+.help{
+    width: 60px;
+    height: 30px;
+    background-color:rgba(255, 0, 174, 0.728);
+    border: none;
+}
+.navbar3{
+    display:flex;
+}
+.navbar-content3{
+    display: flex;
+    width: 1630px;
+    gap: 25px;
+    background-color: rgb(165, 42, 99);
+    color: white;
+    height: 55px;
+    padding-left: 25px;
+}
+.footer-support{
+    background-color: gray;
+    display: flex;
+    gap: 80px;
+    padding-left: 25px;
+    height: 80px;
+
+}
+.sub-input{
+    height: 42px;
+    top: 15px;
+    position: relative;
+    width: 155px;
+}
+.sub-button{
+ height: 45px;
+ background-color: rgb(255, 192, 248);
+ border: none;
+ position: relative;
+ right: 15px;
+ top: 15px;
+ width: 70px;
+}
+.support-item{
+    position: relative;
+    line-height: 8px;
+    font-size: 16px;
+}
+.footer-sub{
+    position: relative;
+    line-height: 8px;
+}
+.footer-info{
+    display: flex;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    padding-left: 25px;
+}
+.slide-wrapper{
+    display: flex;
+}
+.copy{
+    background-color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+
