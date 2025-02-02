@@ -1,6 +1,14 @@
 body{
     background-color: whitesmoke;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     
+}
+.main-container{
+
 }
 .navbar-logo-group{
     display: flex;
@@ -18,7 +26,7 @@ body{
     gap: 40px;
 }
 .nav-ads{
-    width: 1200px;
+    width: 100%px;
 } 
 .navads{
     width: 1600px;
@@ -32,7 +40,7 @@ body{
     background-color: deeppink;
     height: 55px;
     align-items: center;
-    width: 1610px;
+    width: 100%;
     gap: 35px;
     padding-left: 25px;
 }
@@ -84,7 +92,7 @@ body{
 }
 .navbar-content3{
     display: flex;
-    width: 1680px;
+    width: 100%;
     gap: 50px;
     background-color: rgb(139, 0, 69);
     color: white;
@@ -134,10 +142,10 @@ body{
     display: inline-flex;
     gap: 50px;
     background-color: rgba(0, 0, 0, 0.87);
-    color:  rgba(163, 160, 160, 0.648);
+    color:  rgba(243, 238, 238, 0.989);
     padding-left: 25px;
     line-height: 25px;
-    width: 1800px;
+    width: 100%;
     height: 300px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -255,8 +263,43 @@ span{
     background-color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-    
+}
 
+.nav-ads, .navbar2, .navbar3,.main-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
+@media (max-width: 640px){
+    .nav-ads, .navbar2, .navbar3{ max-width: 475px;}
+}
+
+@media (max-width: 768px){
+    .nav-ads, .navbar2, .navbar3{ max-width: 640px;}
+}
+
+@media (max-width: 1240px){
+    body{ max-width: 768px;}
+}
+
+@media (max-width: 1280px){
+    .nav-ads, .navbar2, .navbar3, .products{ max-width: 1240px;}
+}
+
+@media (max-width: 1536px){
+    .nav-ads, .navbar2, .navbar3, .products{ max-width: 1280px;}
+}
+
+@media (max-width: 1755px){
+    .nav-ads, .navbar2, .navbar3, .products{ max-width: 1536px;}
+}
+
+@media (max-width: 1820px){
+    .nav-ads, .navbar2, .navbar3, .products{ max-width: 1755px;}
+}
+
+@media (max-width: 2000px){
+    .nav-ads, .navbar2, .navbar3, .products{ max-width: 1820px;}
 }
